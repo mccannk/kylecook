@@ -1,7 +1,9 @@
-import React from 'react';
+import React, { useState } from 'react';
 import RecipeList from './RecipeList'
+import '../css/app.css'
 
 function App() {
+  const [recipes, setRecipes] = useState(sampleRecipes)
   return (
     <RecipeList recipes={sampleRecipes} />
   )
