@@ -13,6 +13,12 @@ body {
   font-size: clamp(.5rem, 2.5vmin, 1.5rem);
 }
 
+.mccannk{
+  display: flex;
+  justify-content: center;
+  color: white;
+}
+
 .keyboard {
   display: grid;
   grid-template-columns: repeat(20, minmax(auto, 1.25em));
