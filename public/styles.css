@@ -1,6 +1,7 @@
 *, *::after, *::before {
   box-sizing: border-box;
   font-family: Arial;
+  color: whitesmoke;
 }
 
 body {
@@ -19,6 +20,19 @@ body {
   color: whitesmoke;
   text-transform: uppercase;
   margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.day, .hour, .minute, .second {
+  display: flex;
+ text-align: center;
+ justify-content: space-between;
 }
 
 .bullets {
@@ -97,6 +111,12 @@ body {
   gap: .25em;
   margin-bottom: 1em;
   padding-top: 10px;
+}
+
+.time {
+  color: white;
+  display: flex;
+  justify-content: center;
 }
 
 .tile {
