@@ -1,7 +1,7 @@
 *, *::after, *::before {
   box-sizing: border-box;
   font-family: Arial;
-  color: whitesmoke;
+
 }
 
 body {
@@ -22,22 +22,22 @@ body {
   margin: 10px;
 }
 
-.container {
+.coming-soon {
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
 }
 
-.day, .hour, .minute, .second {
+.countdown{
   display: flex;
- text-align: center;
- justify-content: space-between;
+  justify-content: space-around;
+  text-align: center;
+  color: antiquewhite;
 }
 
-.bullets {
-  display: list-item;
-  color: whitesmoke;
+h2{
+  margin: 10px;
 }
 
 .keyboard {

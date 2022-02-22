@@ -15457,7 +15457,7 @@ function shakeTiles(tiles) {
 
 function checkWinLose(guess, tiles) {
   if (guess === targetWord) {
-    showAlert("You Win", 5000)
+    showAlert("You Win!!", 5000)
     danceTiles(tiles)
     stopInteraction()
     return
@@ -15465,7 +15465,7 @@ function checkWinLose(guess, tiles) {
 
   const remainingTiles = guessGrid.querySelectorAll(":not([data-letter])")
   if (remainingTiles.length === 0) {
-    showAlert(targetWord.toUpperCase(), null)
+    showAlert(targetWord.toUpperCase(), 5000)
     stopInteraction()
   }
 }
